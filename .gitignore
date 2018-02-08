@@ -1,0 +1,7 @@
+*.zip
+.vagrant
+ansible/roles/docker
+*.box
+ansible/roles/phantomjs
+ansible.cfg
+ansible/
