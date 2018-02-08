@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.provider 'virtualbox' do |vb|
-    vb.name = "devenv_nodejs"
+    vb.name = "devenv_java"
     vb.gui = false
     vb.memory = 12288
     vb.cpus = 4
