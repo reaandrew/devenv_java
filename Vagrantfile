@@ -21,12 +21,10 @@ Vagrant.configure(2) do |config|
   config.vm.provider 'virtualbox' do |vb|
     vb.name = "devenv_java"
     vb.gui = false
-    vb.memory = 12288
-    vb.cpus = 4
   
     # Customize the amount of memory on the VM:
     vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
-    vb.customize ["modifyvm", :id, "--natdnsproxy1", "off"]
+    vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
   end
 
 end

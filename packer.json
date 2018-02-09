@@ -34,7 +34,7 @@
     [
       {
         "type": "docker-tag",
-        "repository": "reaandrew/devenv_golang"
+        "repository": "reaandrew/devenv_java"
       }
     ]
   ]
