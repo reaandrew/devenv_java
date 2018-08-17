@@ -1,0 +1,15 @@
+---
+- hosts: all
+  vars:
+    os:
+      user: vagrant
+    languages:
+      java:
+        version: 1.8
+        gradle:
+          version: 4.5.1
+  roles:
+  - java
+  - docker
+  become: yes
+  become_method: sudo
